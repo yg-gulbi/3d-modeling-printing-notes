@@ -1,12 +1,12 @@
 # 3D Modeling and Printing Notes
 
-3D modeling, CAD export, and 3D printing build notes from robot hardware and lab fabrication practice.
+Personal study and build notes for 3D modeling, CAD export, and 3D printing practice.
 
-이 저장소는 이력서에서 **3D 모델링 및 프린팅 경험**을 따로 보여주기 위한 학습노트형 포트폴리오입니다. 단순히 STL을 모아둔 저장소가 아니라, 부품 배치, 출력 가능성, 조립성, 센서/보드/배터리 장착, 실패 후 수정 과정을 한 흐름으로 정리합니다.
+이 저장소는 3D 모델링과 3D 프린팅을 공부하면서 직접 만들고 정리한 과정을 모아두는 공개 학습 기록입니다. 단순히 STL을 모아둔 저장소가 아니라, 부품 배치, 출력 가능성, 조립성, 센서/보드/배터리 장착, 실패 후 수정 과정을 한 흐름으로 남깁니다.
 
 ## Why This Repository
 
-이력서용 한 줄 요약:
+짧은 설명:
 
 > CATIA/SolidWorks 기반으로 로봇 하드웨어 부품, 센서 케이스, 보드/배터리 플레이트를 모델링하고 STL/STEP로 출력 준비 및 조립 검증까지 수행했습니다.
 
@@ -46,9 +46,8 @@
 
 - 모든 원본 CAD를 공개하지 않습니다. 일부 파일은 연구실 맥락, 라이선스, 외부 모델 출처가 섞여 있어 공개용 export만 선별했습니다.
 - 다운로드 모델은 직접 제작 산출물로 주장하지 않고, 출력 실습/참고 자료로만 기록합니다.
-- 이 저장소는 제조용 공식 도면 세트가 아니라 이력서용 포트폴리오 노트입니다.
+- 이 저장소는 제조용 공식 도면 세트가 아니라 개인 학습과 제작 과정을 정리한 공개 아카이브입니다.
 
 ## Related Project
 
 - Main robot project: [Self-Balancing-Robot-with-Arduino-and-ROS](https://github.com/yg-gulbi/Self-Balancing-Robot-with-Arduino-and-ROS)
-
