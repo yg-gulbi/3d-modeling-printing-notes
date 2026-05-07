@@ -2,7 +2,7 @@
 
 밸런싱 로봇 프로젝트에서 3D 모델링은 전자부품을 담는 껍데기를 만드는 수준이 아니라, 실제 제어 실험을 버티는 하드웨어 구조를 만드는 작업이었습니다.
 
-![CATIA body design](../images/catia_body_design.jpg)
+![CATIA body design](../images/balancing-robot/catia_body_design.jpg)
 
 ## Design Goal
 
@@ -28,7 +28,7 @@ The curated public exports are in [cad_exports/balancing-robot](../cad_exports/b
 
 ## Assembly Thinking
 
-![Internal assembly views](../images/catia_internal_assembly_views.jpg)
+![Internal assembly views](../images/balancing-robot/catia_internal_assembly_views.jpg)
 
 설계하면서 가장 중요했던 것은 부품 하나하나의 형상보다 **실제 조립했을 때 유지보수가 가능한가**였습니다.
 
@@ -40,4 +40,3 @@ The curated public exports are in [cad_exports/balancing-robot](../cad_exports/b
 ## Portfolio Takeaway
 
 이 작업은 CAD, 3D printing, 로봇 제어 실험이 분리된 일이 아니라는 점을 보여줍니다. 기구 설계가 잘못되면 센서 배치, 제어 안정성, 실험 안전성이 모두 흔들리기 때문에 하드웨어 모델링을 시스템 설계 일부로 다뤘습니다.
-

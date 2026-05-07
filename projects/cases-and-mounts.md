@@ -2,7 +2,7 @@
 
 센서 케이스와 마운트류는 작은 부품처럼 보이지만, 실제 로봇에서는 신호 품질과 유지보수성을 결정합니다.
 
-![CATIA head design](../images/catia_head_design.jpg)
+![CATIA head design](../images/balancing-robot/catia_head_design.jpg)
 
 ## Examples
 
@@ -24,4 +24,3 @@
 - [gemini335_case.stl](../cad_exports/balancing-robot/gemini335_case.stl)
 - [lidar_case_ver2.stl](../cad_exports/balancing-robot/lidar_case_ver2.stl)
 - [robot_neck.stl](../cad_exports/balancing-robot/robot_neck.stl)
-
