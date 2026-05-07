@@ -1,0 +1,22 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large raw media and slicer outputs
+*.mp4
+*.mov
+*.avi
+*.gcode
+*.bgcode
+*.gx
+
+# Native CAD sources are kept outside this public portfolio unless curated.
+*.CATPart
+*.CATProduct
+*.SLDPRT
+*.SLDASM
+*.SLDDRW
+*.swj
+
