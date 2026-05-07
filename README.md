@@ -16,6 +16,7 @@ Personal study and build notes for 3D modeling, CAD export, and 3D printing prac
 | --- | --- | --- |
 | Self-balancing robot hardware parts | 실제 로봇에 들어가는 보드 플레이트, 케이스, 사이드 프레임, 센서 마운트 설계 | [balancing robot notes](projects/balancing-robot-hardware.md), [CAD exports](cad_exports/balancing-robot), [organized model archive](models) |
 | Modeling project archive | 사이클론, 패싱 엘리베이터, 기계설계 실습, 지능형 로봇, 소형 출력물 등 여러 제작 흐름 | [project index](projects/README.md), [model previews](images/model-previews/preview-contact-sheet.png) |
+| Assembly review archive | SolidWorks/CATIA assembly 파일을 모으고 eDrawings 캡처로 조립 상태를 확인할 수 있게 정리 | [assembly index](models/assemblies/README.md), [eDrawings captures](images/assembly-previews/README.md) |
 | Internal assembly planning | Arduino, ODrive, 배터리, 센서, 카메라를 고려한 내부 구조 설계 | [assembly views](images/balancing-robot/catia_internal_assembly_views.jpg) |
 | Print and iteration notes | 출력 가능한 형상, 브라켓 보호, 장착 방향, 실패 후 수정 기준 정리 | [design-to-print workflow](notes/design-to-print-workflow.md), [lab print practice](prints/lab-print-practice.md) |
 
@@ -25,6 +26,7 @@ Personal study and build notes for 3D modeling, CAD export, and 3D printing prac
 | --- | --- |
 | Robot body and plates | 밸런싱 로봇의 하드웨어 배치와 출력 부품을 중심으로 정리했습니다. |
 | Cases and mounts | Gemini 335, LiDAR, receiver, board plate처럼 센서/전자부품을 고정하기 위한 케이스와 마운트 경험을 분리했습니다. |
+| Assembly capture pass | GitHub에서 바로 볼 수 없는 `.SLDASM`/`.CATProduct` 조립체는 별도 index와 eDrawings screenshot으로 보강했습니다. |
 | Print practice | 연구실 프린트 실습, 외부 다운로드 모델 검토, 출력 실패/개선 관찰은 출처와 공개 가능성을 구분했습니다. |
 
 ## Repository Layout
@@ -37,7 +39,7 @@ Personal study and build notes for 3D modeling, CAD export, and 3D printing prac
 | `models/` | 정리된 원본 CAD, assembly, STL export 아카이브 |
 | `images/balancing-robot/` | 밸런싱 로봇 설계와 조립 과정을 보여주는 가벼운 이미지 |
 | `images/model-previews/` | STL에서 뽑은 대표 모델 미리보기 이미지 |
-| `images/assembly-previews/` | assembly와 연결된 STL 기반 미리보기 이미지 |
+| `images/assembly-previews/` | eDrawings 캡처와 assembly 관련 미리보기 이미지 |
 | `notes/` | 설계-출력 워크플로와 공개 정책 |
 
 ## What I Learned

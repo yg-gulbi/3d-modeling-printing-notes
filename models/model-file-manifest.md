@@ -4,18 +4,28 @@ Generated from the curated `models/` archive. Sizes are approximate.
 
 | Path | Type | Size KB |
 | --- | --- | ---: |
+| `assemblies/assemble/balancing-robot/balancing robot_No_wheel.SLDASM` | `.SLDASM` | 2093.9 |
+| `assemblies/assemble/balancing-robot/balancing robot_ver4.SLDASM` | `.SLDASM` | 2139.9 |
+| `assemblies/assemble/balancing-robot/catia/balancing robot_ver1.CATProduct` | `.CATProduct` | 332 |
+| `assemblies/assemble/balancing-robot/catia/balancing robot_ver2.CATProduct` | `.CATProduct` | 45.2 |
+| `assemblies/assemble/balancing-robot/catia/balancing robot_ver3.CATProduct` | `.CATProduct` | 72.6 |
+| `assemblies/assemble/balancing-robot/catia/balancing robot_ver4.CATProduct` | `.CATProduct` | 74 |
+| `assemblies/assemble/balancing-robot/catia/balancing_assemble_ver1.CATProduct` | `.CATProduct` | 105.8 |
+| `assemblies/assemble/balancing-robot/new-balancerobot/balence_robot.SLDASM` | `.SLDASM` | 111.9 |
 | `assemblies/assemble/MAPXIII/MAPXIII.SLDASM` | `.SLDASM` | 505.3 |
-| `assemblies/assemble/미세먼지/미세먼지신호등.SLDASM` | `.SLDASM` | 155.6 |
-| `assemblies/assemble/미세먼지/미세먼지신호등_내부기둥45도버전.SLDASM` | `.SLDASM` | 161.3 |
 | `assemblies/assemble/미세먼지신호등 솔루션1/.SLDASM` | `.SLDASM` | 288.4 |
 | `assemblies/assemble/미세먼지신호등 솔루션1/신호등 판.SLDPRT` | `.SLDPRT` | 72.3 |
 | `assemblies/assemble/미세먼지신호등 솔루션1/어셈블리2.SLDASM` | `.SLDASM` | 212.6 |
 | `assemblies/assemble/미세먼지신호등 솔루션2/미세먼지 신호등 어셈블_솔루션2.SLDASM` | `.SLDASM` | 106.8 |
 | `assemblies/assemble/미세먼지신호등 솔루션2/미세먼지솔루션2.SLDASM` | `.SLDASM` | 303.9 |
+| `assemblies/assemble/미세먼지신호등/미세먼지신호등.SLDASM` | `.SLDASM` | 155.6 |
+| `assemblies/assemble/미세먼지신호등/미세먼지신호등_내부기둥45도버전.SLDASM` | `.SLDASM` | 161.3 |
 | `assemblies/assemble/신형사이쿨론/신형사이클론 초안.SLDASM` | `.SLDASM` | 209.1 |
 | `assemblies/assemble/신형사이쿨론/이중 사이클론.SLDASM` | `.SLDASM` | 190 |
+| `assemblies/assemble/엘레베이터/kabin.SLDASM` | `.SLDASM` | 143.5 |
 | `assemblies/assemble/엘레베이터/엘레베이터.SLDASM` | `.SLDASM` | 158.3 |
 | `assemblies/assemble/엘레베이터/캐빈위.SLDASM` | `.SLDASM` | 115.5 |
+| `assemblies/assemble/운동기구/chair bar.SLDASM` | `.SLDASM` | 143.9 |
 | `assemblies/assemble/지능형로봇공모전/지능형로봇합체본_vr1.SLDASM` | `.SLDASM` | 183.9 |
 | `assemblies/assemble/책깔피/책깔피.SLDASM` | `.SLDASM` | 71.1 |
 | `source-cad/SLDPRT/balancing robot/3D printer/balancing robot_board plate.CATPart` | `.CATPart` | 408.2 |
