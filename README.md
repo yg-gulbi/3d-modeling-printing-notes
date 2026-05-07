@@ -14,7 +14,7 @@ Personal study and build notes for 3D modeling, CAD export, and 3D printing prac
 
 | Result | What it shows | Evidence |
 | --- | --- | --- |
-| Self-balancing robot hardware parts | 실제 로봇에 들어가는 보드 플레이트, 케이스, 사이드 프레임, 센서 마운트 설계 | [balancing robot notes](projects/balancing-robot-hardware.md), [CAD exports](cad_exports/balancing-robot) |
+| Self-balancing robot hardware parts | 실제 로봇에 들어가는 보드 플레이트, 케이스, 사이드 프레임, 센서 마운트 설계 | [balancing robot notes](projects/balancing-robot-hardware.md), [CAD exports](cad_exports/balancing-robot), [organized model archive](models) |
 | Internal assembly planning | Arduino, ODrive, 배터리, 센서, 카메라 배치를 고려한 내부 구조 설계 | [assembly views](images/catia_internal_assembly_views.jpg) |
 | Print and iteration notes | 출력 가능한 형상, 브라켓 보호, 장착 방향, 실패 후 수정 기준 정리 | [design-to-print workflow](notes/design-to-print-workflow.md), [lab print practice](prints/lab-print-practice.md) |
 
@@ -32,7 +32,8 @@ Personal study and build notes for 3D modeling, CAD export, and 3D printing prac
 | --- | --- |
 | `projects/` | 대표 제작 프로젝트별 설명 |
 | `prints/` | 출력 실습, 실패/개선 노트 |
-| `cad_exports/` | 공개 가능한 STL/STEP export 일부 |
+| `cad_exports/` | README에서 바로 볼 대표 STL/STEP export 일부 |
+| `models/` | 정리된 원본 CAD, assembly, STL export 아카이브 |
 | `images/` | README와 프로젝트 문서에 쓰는 가벼운 이미지 |
 | `notes/` | 설계-출력 워크플로와 공개 정책 |
 

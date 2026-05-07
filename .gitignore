@@ -12,11 +12,6 @@ Thumbs.db
 *.bgcode
 *.gx
 
-# Native CAD sources are kept outside this public portfolio unless curated.
-*.CATPart
-*.CATProduct
-*.SLDPRT
-*.SLDASM
-*.SLDDRW
+# Native CAD sources are included when they belong to organized personal study folders.
 *.swj
 
