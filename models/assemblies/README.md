@@ -6,6 +6,8 @@ The original files under `models/source-cad/` are intentionally preserved in pla
 
 이 정리는 GitHub에서 조립 파일을 설명하기 위한 공개용 색인입니다. 원본 CAD 폴더에 흩어져 있던 assembly entry file을 한곳에서 찾을 수 있게 모으고, 실제 조립 상태는 eDrawings 캡처와 연결했습니다.
 
+이 폴더를 보는 순서는 파일명보다 설계 흐름에 가깝습니다. 먼저 assembly entry file로 어떤 조립체가 있었는지 확인하고, 그 다음 preview 이미지에서 전체 형상과 주요 방향을 봅니다. 마지막으로 프로젝트 노트에서 왜 그런 구조를 시도했는지 읽을 수 있게 연결하는 것이 목표입니다.
+
 ## Current Count
 
 | Type | Count |
@@ -18,6 +20,8 @@ The original files under `models/source-cad/` are intentionally preserved in pla
 eDrawings screenshots for the main assemblies are organized at `../../images/assembly-previews/edrawings-captures/`.
 
 These screenshots are useful because the raw assembly files do not render on GitHub. They show the overall shape, orientation, and visible part relationships before someone downloads the CAD files.
+
+The top-level preview images in `../../images/assembly-previews/` now use eDrawings captures rather than the older STL-derived substitutes.
 
 ## Project Groups
 

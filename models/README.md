@@ -16,6 +16,8 @@ GitHub에서는 `.SLDASM`과 `.CATProduct`를 바로 미리보기로 열 수 없
 
 대표 조립체는 eDrawings에서 직접 캡처한 이미지도 함께 정리했습니다. 파일만 있는 아카이브가 아니라, 조립 상태와 전체 형상을 빠르게 확인할 수 있는 공개 포트폴리오용 기록으로 보강한 것입니다.
 
+STL export 기반 이미지는 단일 부품의 형태를 빠르게 보여줄 때는 쓸 수 있지만, assembly의 설계 의도와 부품 관계를 보여주기에는 부족했습니다. assembly preview 쪽은 eDrawings 캡처를 기준 이미지로 사용합니다.
+
 ## Excluded Roots
 
 | Folder or pattern | Reason |
@@ -30,7 +32,7 @@ GitHub에서는 `.SLDASM`과 `.CATProduct`를 바로 미리보기로 열 수 없
 - [model-file-manifest.md](model-file-manifest.md) lists the included files by relative path, extension, and size.
 - [project index](../projects/README.md) gives the human-readable grouping by project and learning theme.
 - [assembly index](assemblies/README.md) lists the curated assembly entry files.
-- [assembly previews](../images/assembly-previews/README.md) shows eDrawings captures and visual substitutes for assembly folders.
+- [assembly previews](../images/assembly-previews/README.md) shows eDrawings capture sets and representative assembly views.
 
 ## Note
 

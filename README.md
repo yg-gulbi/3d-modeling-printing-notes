@@ -4,6 +4,8 @@ Personal study and build notes for 3D modeling, CAD export, and 3D printing prac
 
 이 저장소는 3D 모델링과 3D 프린팅을 공부하면서 직접 만들고 정리한 과정을 모아두는 공개 학습 기록입니다. 단순히 STL을 모아둔 저장소가 아니라, 부품 배치, 출력 가능성, 조립성, 센서/보드/배터리 장착, 실패 후 수정 과정을 한 흐름으로 남깁니다.
 
+정리의 초점은 “모델 파일을 많이 모았다”가 아니라 “왜 이 구조를 만들었고, 어떤 조립 문제를 보려고 했는가”입니다. 그래서 원본 CAD와 export 파일 옆에 assembly index, eDrawings 캡처, 반복 설계 노트를 같이 둡니다.
+
 ## Why This Repository
 
 짧은 설명:
@@ -16,7 +18,7 @@ Personal study and build notes for 3D modeling, CAD export, and 3D printing prac
 | --- | --- | --- |
 | Self-balancing robot hardware parts | 실제 로봇에 들어가는 보드 플레이트, 케이스, 사이드 프레임, 센서 마운트 설계 | [balancing robot notes](projects/balancing-robot-hardware.md), [CAD exports](cad_exports/balancing-robot), [organized model archive](models) |
 | Modeling project archive | 사이클론, 패싱 엘리베이터, 기계설계 실습, 지능형 로봇, 소형 출력물 등 여러 제작 흐름 | [project index](projects/README.md), [model previews](images/model-previews/preview-contact-sheet.png) |
-| Assembly review archive | SolidWorks/CATIA assembly 파일을 모으고 eDrawings 캡처로 조립 상태를 확인할 수 있게 정리 | [assembly index](models/assemblies/README.md), [eDrawings captures](images/assembly-previews/README.md) |
+| Assembly review archive | SolidWorks/CATIA assembly 파일을 모으고 eDrawings 캡처로 조립 상태와 설계 의도를 확인할 수 있게 정리 | [assembly index](models/assemblies/README.md), [eDrawings captures](images/assembly-previews/README.md) |
 | Internal assembly planning | Arduino, ODrive, 배터리, 센서, 카메라를 고려한 내부 구조 설계 | [assembly views](images/balancing-robot/catia_internal_assembly_views.jpg) |
 | Print and iteration notes | 출력 가능한 형상, 브라켓 보호, 장착 방향, 실패 후 수정 기준 정리 | [design-to-print workflow](notes/design-to-print-workflow.md), [lab print practice](prints/lab-print-practice.md) |
 
@@ -26,7 +28,7 @@ Personal study and build notes for 3D modeling, CAD export, and 3D printing prac
 | --- | --- |
 | Robot body and plates | 밸런싱 로봇의 하드웨어 배치와 출력 부품을 중심으로 정리했습니다. |
 | Cases and mounts | Gemini 335, LiDAR, receiver, board plate처럼 센서/전자부품을 고정하기 위한 케이스와 마운트 경험을 분리했습니다. |
-| Assembly capture pass | GitHub에서 바로 볼 수 없는 `.SLDASM`/`.CATProduct` 조립체는 별도 index와 eDrawings screenshot으로 보강했습니다. |
+| Assembly capture pass | GitHub에서 바로 볼 수 없는 `.SLDASM`/`.CATProduct` 조립체는 별도 index와 eDrawings screenshot으로 보강하고, 약한 STL preview는 eDrawings 기반 대표 이미지로 교체했습니다. |
 | Print practice | 연구실 프린트 실습, 외부 다운로드 모델 검토, 출력 실패/개선 관찰은 출처와 공개 가능성을 구분했습니다. |
 
 ## Repository Layout
