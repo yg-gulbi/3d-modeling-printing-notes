@@ -18,6 +18,6 @@
 | Support-heavy shapes | 출력 방향을 바꾸거나 부품을 분할 |
 | Hard-to-service assembly | 덮개/플레이트를 다시 열 수 있는 구조로 변경 |
 
-## Public Portfolio Policy
+## Public Archive Policy
 
 외부 다운로드 모델은 출력 연습에는 도움이 되었지만, 직접 제작 산출물처럼 보이지 않도록 이 저장소에는 원본 모델을 넣지 않았습니다. 직접 만든 로봇 부품과 공개 가능한 export만 포함했습니다.

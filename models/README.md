@@ -22,8 +22,8 @@
 ## File Manifest
 
 - [model-file-manifest.md](model-file-manifest.md) lists the included files by relative path, extension, and size.
+- [project index](../projects/README.md) gives the human-readable grouping by project and learning theme.
 
 ## Note
 
 일부 assembly 폴더에는 실제 조립 간섭 확인을 위해 사용한 보드/센서/모터 reference component가 포함될 수 있습니다. 이 파일들은 전체 설계 맥락을 보존하기 위해 남겨 두지만, 모든 reference component를 직접 설계한 제품으로 주장하지 않습니다.
-

@@ -37,6 +37,6 @@ The curated public exports are in [cad_exports/balancing-robot](../cad_exports/b
 - 제어 보드는 고정성과 접근성이 모두 필요했습니다.
 - 보호 브라켓은 안전장치이면서 동시에 실제 기울기 제한의 기준이 되었습니다.
 
-## Portfolio Takeaway
+## Build Takeaway
 
 이 작업은 CAD, 3D printing, 로봇 제어 실험이 분리된 일이 아니라는 점을 보여줍니다. 기구 설계가 잘못되면 센서 배치, 제어 안정성, 실험 안전성이 모두 흔들리기 때문에 하드웨어 모델링을 시스템 설계 일부로 다뤘습니다.
