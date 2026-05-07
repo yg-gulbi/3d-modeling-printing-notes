@@ -37,6 +37,7 @@ Personal study and build notes for 3D modeling, CAD export, and 3D printing prac
 | `models/` | 정리된 원본 CAD, assembly, STL export 아카이브 |
 | `images/balancing-robot/` | 밸런싱 로봇 설계와 조립 과정을 보여주는 가벼운 이미지 |
 | `images/model-previews/` | STL에서 뽑은 대표 모델 미리보기 이미지 |
+| `images/assembly-previews/` | assembly와 연결된 STL 기반 미리보기 이미지 |
 | `notes/` | 설계-출력 워크플로와 공개 정책 |
 
 ## What I Learned

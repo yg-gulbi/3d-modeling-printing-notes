@@ -23,7 +23,10 @@
 
 - [model-file-manifest.md](model-file-manifest.md) lists the included files by relative path, extension, and size.
 - [project index](../projects/README.md) gives the human-readable grouping by project and learning theme.
+- [assembly previews](../images/assembly-previews/README.md) shows available visual substitutes for assembly folders.
 
 ## Note
 
 일부 assembly 폴더에는 실제 조립 간섭 확인을 위해 사용한 보드/센서/모터 reference component가 포함될 수 있습니다. 이 파일들은 전체 설계 맥락을 보존하기 위해 남겨 두지만, 모든 reference component를 직접 설계한 제품으로 주장하지 않습니다.
+
+`.SLDASM` 파일은 GitHub에서 바로 렌더링되지 않고, 현재 환경에도 SolidWorks/eDrawings가 없어서 원본 assembly를 직접 이미지로 변환하지 못했습니다. 대신 대응되는 STL export가 있는 assembly 계열은 [assembly preview images](../images/assembly-previews/README.md)로 따로 보강했습니다.

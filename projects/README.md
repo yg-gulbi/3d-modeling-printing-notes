@@ -4,6 +4,10 @@
 
 ![Model preview contact sheet](../images/model-previews/preview-contact-sheet.png)
 
+Assembly 파일은 GitHub에서 바로 보이지 않기 때문에, 관련 STL export가 있는 경우 별도 미리보기를 만들었습니다.
+
+![Assembly preview contact sheet](../images/assembly-previews/assembly-preview-contact-sheet.png)
+
 ## Project Map
 
 | Project | Main folders | What I practiced | Notes |
