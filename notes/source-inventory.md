@@ -1,15 +1,17 @@
 # Source Inventory
 
-이 저장소에는 모든 원본 자료를 그대로 넣지 않았습니다. 직접 만든 것, 공개해도 되는 것, 학습 과정 설명에 필요한 것을 중심으로 선별했습니다.
+이 저장소에는 모든 원본 자료를 무작정 넣지 않고, 직접 만든 것, 공개해도 되는 것, 학습 과정 설명에 필요한 것을 중심으로 선별했습니다.
 
 ## Included
 
 | Type | Included examples | Why |
 | --- | --- | --- |
-| CAD exports | STL/STP files in `cad_exports/balancing-robot` | 바로 보기 좋은 대표 출력/교환 파일 |
-| Organized model archive | `models/source-cad`, `models/stl-exports`, `models/assemblies` | 내가 주제별로 정리해 둔 모델링 파일을 최대한 보존 |
-| Images | CATIA screenshots and robot process photos | 설계 의도와 조립 흐름을 설명하기 위한 가벼운 시각 자료 |
-| Notes | workflow, print practice, publication policy | 나중에 다시 볼 수 있는 학습 기록 |
+| Portfolio project folders | `portfolio/<project>/README.md`, `assemblies/`, `parts/`, `exports/`, `images/` | 한 프로젝트의 설명, 부품, assembly, preview를 함께 읽을 수 있게 하기 위해 |
+| CAD exports | `portfolio/*/exports/` | GitHub에서 바로 확인하거나 다운로드하기 쉬운 STL/STEP 파일 |
+| Source CAD | `portfolio/*/parts/source-cad/` | assembly와 부품 맥락을 보존하기 위해 |
+| Images | `portfolio/*/images/edrawings/`, `portfolio/*/images/previews/` | 설계 의도와 조립 흐름을 설명하기 위한 시각 자료 |
+| Archive | `archive/` | 프로젝트 단위로 바로 묶기 애매한 mixed source와 legacy manifest 보존 |
+| Notes | `notes/` | workflow, print practice, publication policy, iteration notes |
 
 ## Not Included
 
@@ -22,6 +24,6 @@
 
 ## Current Inclusion Rule
 
-- Include: organized modeling folders such as `SLDPRT`, `stl`, and `assemble`.
-- Exclude: `download_file`, `g-code`, broad lab print-download folders, and clearly external downloaded models.
+- Include: project-level folders where the design story, assembly, source parts, exports, and images can be read together.
+- Archive: mixed or uncertain source folders that should be preserved but are not yet narratively organized.
 - Keep context: some assembly folders may contain reference component models used for fit-checking. They are kept as part of the modeling study context, not claimed as original product designs.

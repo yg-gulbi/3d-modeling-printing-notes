@@ -1,60 +1,46 @@
 # 3D Modeling and Printing Notes
 
-Personal study and build notes for 3D modeling, CAD export, and 3D printing practice.
+Personal study and build notes for 3D modeling, CAD export, assembly review, and 3D printing practice.
 
-이 저장소는 3D 모델링과 3D 프린팅을 공부하면서 직접 만들고 정리한 과정을 모아두는 공개 학습 기록입니다. 단순히 STL을 모아둔 저장소가 아니라, 부품 배치, 출력 가능성, 조립성, 센서/보드/배터리 장착, 실패 후 수정 과정을 한 흐름으로 남깁니다.
+이 저장소는 단순한 CAD/STL 파일 모음이 아니라, 프로젝트별로 **문제 정의, 설계 의도, assembly, 부품 파일, export, 캡처 이미지, 반복 노트**를 함께 보관하는 공개 학습 아카이브입니다.
 
-정리의 초점은 “모델 파일을 많이 모았다”가 아니라 “왜 이 구조를 만들었고, 어떤 조립 문제를 보려고 했는가”입니다. 그래서 원본 CAD와 export 파일 옆에 assembly index, eDrawings 캡처, 반복 설계 노트를 같이 둡니다.
+## How To Read This Repository
 
-## Why This Repository
+가장 먼저 [portfolio/](portfolio/)를 보면 됩니다. 각 프로젝트 폴더 안에는 다음 단위가 함께 들어 있습니다.
 
-짧은 설명:
-
-> CATIA/SolidWorks 기반으로 로봇 하드웨어 부품, 센서 케이스, 보드/배터리 플레이트를 모델링하고 STL/STEP로 출력 준비 및 조립 검증까지 수행했습니다.
-
-## Highlights
-
-| Result | What it shows | Evidence |
-| --- | --- | --- |
-| Self-balancing robot hardware parts | 실제 로봇에 들어가는 보드 플레이트, 케이스, 사이드 프레임, 센서 마운트 설계 | [balancing robot notes](projects/balancing-robot-hardware.md), [CAD exports](cad_exports/balancing-robot), [organized model archive](models) |
-| Modeling project archive | 사이클론, 패싱 엘리베이터, 기계설계 실습, 지능형 로봇, 소형 출력물 등 여러 제작 흐름 | [project index](projects/README.md), [model previews](images/model-previews/preview-contact-sheet.png) |
-| Assembly review archive | SolidWorks/CATIA assembly 파일을 모으고 eDrawings 캡처로 조립 상태와 설계 의도를 확인할 수 있게 정리 | [assembly index](models/assemblies/README.md), [eDrawings captures](images/assembly-previews/README.md) |
-| Internal assembly planning | Arduino, ODrive, 배터리, 센서, 카메라를 고려한 내부 구조 설계 | [assembly views](images/balancing-robot/catia_internal_assembly_views.jpg) |
-| Print and iteration notes | 출력 가능한 형상, 브라켓 보호, 장착 방향, 실패 후 수정 기준 정리 | [design-to-print workflow](notes/design-to-print-workflow.md), [lab print practice](prints/lab-print-practice.md) |
-
-## Build Log
-
-| Area | Notes |
+| Folder | Meaning |
 | --- | --- |
-| Robot body and plates | 밸런싱 로봇의 하드웨어 배치와 출력 부품을 중심으로 정리했습니다. |
-| Cases and mounts | Gemini 335, LiDAR, receiver, board plate처럼 센서/전자부품을 고정하기 위한 케이스와 마운트 경험을 분리했습니다. |
-| Assembly capture pass | GitHub에서 바로 볼 수 없는 `.SLDASM`/`.CATProduct` 조립체는 별도 index와 eDrawings screenshot으로 보강하고, 약한 STL preview는 eDrawings 기반 대표 이미지로 교체했습니다. |
-| Print practice | 연구실 프린트 실습, 외부 다운로드 모델 검토, 출력 실패/개선 관찰은 출처와 공개 가능성을 구분했습니다. |
+| `README.md` | 프로젝트의 문제, 설계 의도, 핵심 판단 |
+| `assemblies/` | SolidWorks/CATIA assembly entry files |
+| `parts/source-cad/` | 관련 원본 부품 CAD |
+| `exports/` | STL/STEP 등 공개용 출력 파일 |
+| `images/` | eDrawings 캡처, 모델 preview, 실제 사진 |
+| `notes/` | 보조 설명, 케이스/마운트/반복 기록 |
 
-## Repository Layout
+이 구조의 목적은 한 프로젝트를 이해하기 위해 `models`, `images`, `projects`를 계속 오가지 않게 만드는 것입니다. 예를 들어 미세먼지 신호등은 [portfolio/dust-signal-light/](portfolio/dust-signal-light/) 안에서 assembly, 부품, 캡처, 설명을 함께 볼 수 있습니다.
 
-| Path | Purpose |
+## Portfolio Map
+
+| Project | What it shows |
 | --- | --- |
-| `projects/` | 대표 제작 프로젝트별 설명 |
-| `prints/` | 출력 실습, 실패/개선 노트 |
-| `cad_exports/` | README에서 바로 볼 대표 STL/STEP export 일부 |
-| `models/` | 정리된 원본 CAD, assembly, STL export 아카이브 |
-| `images/balancing-robot/` | 밸런싱 로봇 설계와 조립 과정을 보여주는 가벼운 이미지 |
-| `images/model-previews/` | STL에서 뽑은 대표 모델 미리보기 이미지 |
-| `images/assembly-previews/` | eDrawings 캡처와 assembly 관련 미리보기 이미지 |
-| `notes/` | 설계-출력 워크플로와 공개 정책 |
+| [Balancing robot](portfolio/balancing-robot/) | 실제 로봇에 들어가는 보드 플레이트, 센서 케이스, 배터리/보드 배치, 내부 조립 계획 |
+| [Dust signal light](portfolio/dust-signal-light/) | 내부 공간 부족 문제를 해결하기 위한 신호등 구조 개선, push-lock/push-latch 계열 실험 |
+| [Cyclone systems](portfolio/cyclone-systems/) | 일반/신형/이중 사이클론 구조와 반복 설계 |
+| [Passing elevator](portfolio/passing-elevator/) | 엘리베이터/캐빈/리니어 이동 구조 |
+| [Intelligent robot](portfolio/intelligent-robot/) | 지능형 로봇 공모전 계열 몸체, 케이스, 의자형 구조 |
+| [Mechanical design exercises](portfolio/mechanical-design-exercises/) | 공차, 스프링, 링크, 판 부착장치 등 기계설계 연습 |
+| [MAPXIII](portfolio/mapxiii/) | MAPXIII assembly와 관련 CAD 정리 |
+| [Utility and mechanism models](portfolio/utility-and-mechanism-models/) | 책갈피, 컵받이, 왕복기관, 운동기구 등 소형 모델 |
 
-## What I Learned
+## Why This Structure Changed
 
-- CAD 모델은 보기 좋은 형상보다 **조립 순서, 간섭, 케이블 공간, 출력 방향**이 더 중요하다는 점을 체감했습니다.
-- 센서와 보드를 넣는 로봇 케이스는 외형보다 **유지보수 접근성**과 **부품 고정 방식**이 결과 품질을 좌우했습니다.
-- 프린팅에서는 출력 실패 자체보다, 실패를 보고 **벽 두께, 지지대, 체결부, 보호 브라켓**을 어떻게 고치는지가 핵심이었습니다.
+기존 구조는 파일 종류별이었습니다. assembly는 `models/assemblies`, 부품은 `models/source-cad`, 사진은 `images`, 설명은 `projects`에 흩어져 있었습니다. 보관에는 괜찮지만 GitHub에서 보는 사람에게는 서사가 끊겨 보였습니다.
 
-## Limitations
+이제는 프로젝트 단위로 묶었습니다. 한 폴더 안에서 “무엇을 만들었는가”, “어떤 부품과 assembly가 있었는가”, “어떻게 보이는가”, “왜 그렇게 바꿨는가”를 이어서 읽을 수 있게 했습니다.
 
-- 모든 원본 CAD를 공개하지 않습니다. 일부 파일은 연구실 맥락, 라이선스, 외부 모델 출처가 섞여 있어 공개용 export만 선별했습니다.
-- 다운로드 모델은 직접 제작 산출물로 주장하지 않고, 출력 실습/참고 자료로만 기록합니다.
-- 이 저장소는 제조용 공식 도면 세트가 아니라 개인 학습과 제작 과정을 정리한 공개 아카이브입니다.
+## Archive
+
+[archive/](archive/)에는 정리 과정에서 프로젝트 단위로 바로 넣기 애매한 mixed source나 예전 manifest를 보관합니다. 주 흐름은 `portfolio/`이고, `archive/`는 추적과 보존을 위한 보조 영역입니다.
 
 ## Related Project
 

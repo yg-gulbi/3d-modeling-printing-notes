@@ -2,9 +2,8 @@
 
 ## Korean
 
-CATIA/SolidWorks 기반으로 밸런싱 로봇의 보드/센서/배터리 장착 부품과 케이스를 모델링하고, STL/STEP export와 3D 프린팅을 통해 조립성, 유지보수성, 보호 구조를 검토했습니다.
+CATIA/SolidWorks 기반으로 밸런싱 로봇, 미세먼지 신호등, 사이클론, 엘리베이터 등 여러 모델을 설계하고, 프로젝트별로 assembly, 부품 CAD, STL/STEP export, eDrawings 캡처, 제작 노트를 함께 정리했습니다.
 
 ## English
 
-Modeled and 3D-printed robot hardware parts including board plates, sensor cases, battery mounts, and protective structures, using CAD exports to study assembly, serviceability, and physical integration.
-
+Organized CAD modeling work into project-level portfolios, grouping assemblies, source parts, STL/STEP exports, eDrawings captures, and design notes to show assembly reasoning and iteration.
