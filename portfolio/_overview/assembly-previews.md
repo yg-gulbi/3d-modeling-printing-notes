@@ -13,7 +13,7 @@
 | [Dust signal light](../dust-signal-light/) | `../dust-signal-light/images/edrawings/` |
 | [Passing elevator](../passing-elevator/) | `../passing-elevator/images/edrawings/` |
 | [Cyclone systems](../cyclone-systems/) | `../cyclone-systems/images/edrawings/double-cyclone/` |
-| [Intelligent robot](../intelligent-robot/) | `../intelligent-robot/images/edrawings/intelligent-robot-combined-vr1/` |
+| [Intelligent chair](../intelligent-chair/) | `../intelligent-chair/images/edrawings/intelligent-robot-combined-vr1/` |
 | [Utility and mechanism models](../utility-and-mechanism-models/) | `../utility-and-mechanism-models/images/edrawings/bookmark/` |
 
 ## Representative Sheet

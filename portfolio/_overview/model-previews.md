@@ -10,6 +10,6 @@ These images are overview aids. Project-specific copies now live inside each `po
 | `cyclone-new.png` | [Cyclone systems](../cyclone-systems/) |
 | `passing-elevator.png` | [Passing elevator](../passing-elevator/) |
 | `mechanical-design-spring.png` | [Mechanical design exercises](../mechanical-design-exercises/) |
-| `intelligent-robot-body.png` | [Intelligent robot](../intelligent-robot/) |
+| `intelligent-robot-body.png` | [Intelligent chair](../intelligent-chair/) |
 | `reciprocating-engine.png` | [Utility and mechanism models](../utility-and-mechanism-models/) |
 | `utility-bookmark.png` | [Utility and mechanism models](../utility-and-mechanism-models/) |

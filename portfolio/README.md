@@ -21,7 +21,7 @@
 | Dust signal light | [dust-signal-light](dust-signal-light/) | 내부 공간 부족과 작업성 문제를 해결하기 위한 신호등 구조 개선 |
 | Cyclone systems | [cyclone-systems](cyclone-systems/) | 사이클론 구조를 일반, 신형, 이중 구조로 반복한 흐름 |
 | Passing elevator | [passing-elevator](passing-elevator/) | 캐빈, 연결 부품, 리니어 이동 구조를 가진 엘리베이터 모델 |
-| Intelligent robot | [intelligent-robot](intelligent-robot/) | 로봇/의자형 구조, 케이스, 센서 부품을 포함한 assembly 실험 |
+| Intelligent chair | [intelligent-chair](intelligent-chair/) | 지능형 로봇 공모전 계열에서 파생된 의자형 구조, 케이스, 센서 부품 assembly 실험 |
 | Mechanical design exercises | [mechanical-design-exercises](mechanical-design-exercises/) | 스프링, 공차, 링크, 부착장치 같은 기계 요소 연습 |
 | MAPXIII | [mapxiii](mapxiii/) | MAPXIII assembly와 관련 원본 CAD |
 | Utility and mechanism models | [utility-and-mechanism-models](utility-and-mechanism-models/) | 책갈피, 컵받이, 왕복기관, 운동기구 등 소형 기능 모델 |

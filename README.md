@@ -27,7 +27,7 @@ Personal study and build notes for 3D modeling, CAD export, assembly review, and
 | [Dust signal light](portfolio/dust-signal-light/) | 내부 공간 부족 문제를 해결하기 위한 신호등 구조 개선, push-lock/push-latch 계열 실험 |
 | [Cyclone systems](portfolio/cyclone-systems/) | 일반/신형/이중 사이클론 구조와 반복 설계 |
 | [Passing elevator](portfolio/passing-elevator/) | 엘리베이터/캐빈/리니어 이동 구조 |
-| [Intelligent robot](portfolio/intelligent-robot/) | 지능형 로봇 공모전 계열 몸체, 케이스, 의자형 구조 |
+| [Intelligent chair](portfolio/intelligent-chair/) | 지능형 로봇 공모전 계열에서 파생된 의자형 몸체, 케이스, 센서 구조 |
 | [Mechanical design exercises](portfolio/mechanical-design-exercises/) | 공차, 스프링, 링크, 판 부착장치 등 기계설계 연습 |
 | [MAPXIII](portfolio/mapxiii/) | MAPXIII assembly와 관련 CAD 정리 |
 | [Utility and mechanism models](portfolio/utility-and-mechanism-models/) | 책갈피, 컵받이, 왕복기관, 운동기구 등 소형 모델 |
