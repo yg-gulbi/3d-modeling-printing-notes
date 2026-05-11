@@ -8,10 +8,10 @@ Thumbs.db
 *.mp4
 *.mov
 *.avi
+!portfolio/passing-elevator/images/media/*.mp4
 *.gcode
 *.bgcode
 *.gx
 
 # Native CAD sources are included when they belong to organized personal study folders.
 *.swj
-
